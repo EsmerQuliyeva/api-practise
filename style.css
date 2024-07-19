@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 100vh;
+  gap: 10px;
+}
+.input-post {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.input-post input {
+  width: 70%;
+}
+.input-post button {
+  padding: 15px;
+  background-color: skyblue;
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+  width: 150px;
+}
+.card {
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.card p {
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 10px;
+  width: 50%;
+}
+.card button {
+  padding: 15px;
+  background-color: skyblue;
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+}
